@@ -1,2 +1,2 @@
 # SpotifyWeekly
-Saves your discover weekly playlist into user library
+Saves your spotify discover weekly playlist into user library
