@@ -74,9 +74,9 @@ def get_token():
         token_info = spotify_oauth.refresh_access_token(token_info['refresh_token'])
     return token_info
 
-def create_spotify_oauth():
-    with open("client_id.txt", "r") as id_file:
-        client_id = id_file.read().strip()
+def create_spotify_oauth(): #add your own clientid and secret in a separate file
+    with open("client_id.txt", "r") as id_file: 
+        client_id = id_file.read().strip() 
 
     with open("secrets.txt", "r") as secret_file:
         client_secret = secret_file.read().strip()
